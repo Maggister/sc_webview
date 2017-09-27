@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="20524029-3310-4024-9404-fcb2bb89b246" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scene/App.unity" afterPath="$PROJECT_DIR$/Assets/Scene/App.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AppWindowView.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/WebView/UI/AppWindowView.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <marker date="1506503179379" expanded="true" signature="0:119" ph="/* AppWindowView.cs ... */" />
+                <marker date="1506503179379" expanded="true" signature="127:184" ph="..." />
+                <marker date="1506503179379" expanded="true" signature="206:552" ph="{...}" />
+                <marker date="1506503179379" expanded="true" signature="253:550" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppWindowController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/WebView/UI/AppWindowController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+              <folding>
+                <marker date="1506505507768" expanded="true" signature="0:125" ph="/* AppWindowController.cs ... */" />
+                <marker date="1506505507768" expanded="true" signature="133:202" ph="..." />
+                <marker date="1506505507768" expanded="true" signature="224:1196" ph="{...}" />
+                <marker date="1506505507768" expanded="true" signature="277:1194" ph="{...}" />
+                <marker date="1506505507768" expanded="true" signature="418:630" ph="{...}" />
+                <marker date="1506505507768" expanded="true" signature="669:808" ph="{...}" />
+                <marker date="1506505507768" expanded="true" signature="847:1106" ph="{...}" />
+                <marker date="1506505507768" expanded="true" signature="1023:1059" ph="{...}" />
+                <marker date="1506505507768" expanded="true" signature="1146:1191" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssetBundlesBuilder.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/AssetManagement/Editor/AssetBundlesBuilder.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="27" column="65" lean-forward="true" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+              <folding>
+                <marker date="1503306140526" expanded="true" signature="0:127" ph="/* AssetBundlesBuilder.cs ... */" />
+                <marker date="1503306140526" expanded="false" signature="135:197" ph="..." />
+                <marker date="1503306140526" expanded="true" signature="242:1719" ph="{...}" />
+                <marker date="1503306140526" expanded="true" signature="288:1717" ph="{...}" />
+                <marker date="1503306140526" expanded="true" signature="507:1000" ph="{...}" />
+                <marker date="1503306140526" expanded="true" signature="1053:1711" ph="{...}" />
+                <marker date="1503306140526" expanded="true" signature="1126:1701" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebViewController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/WebView/Root/WebViewController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <marker date="1506505306198" expanded="true" signature="0:120" ph="/* WebViewContext.cs ... */" />
+                <marker date="1506505306198" expanded="false" signature="128:178" ph="..." />
+                <marker date="1506505306198" expanded="true" signature="197:551" ph="{...}" />
+                <marker date="1506505306198" expanded="true" signature="296:549" ph="{...}" />
+                <marker date="1506505306198" expanded="true" signature="471:546" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnitySingleton.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/Core/UnitySingleton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+              <folding>
+                <marker date="1506505110744" expanded="true" signature="0:133" ph="/* UnitySingleton.cs ... */" />
+                <marker date="1506505110744" expanded="true" signature="180:1038" ph="{...}" />
+                <marker date="1506505110744" expanded="true" signature="187:371" ph="/// Singleton, derived from MonoBehaviour with associated GameObject ... " />
+                <marker date="1506505110744" expanded="true" signature="461:1036" ph="{...}" />
+                <marker date="1506505110744" expanded="true" signature="476:562" ph="/// Returns the instance of the singleton ... " />
+                <marker date="1506505110744" expanded="true" signature="595:936" ph="{...}" />
+                <marker date="1506505110744" expanded="true" signature="621:926" ph="{...}" />
+                <marker date="1506505110744" expanded="true" signature="674:876" ph="{...}" />
+                <marker date="1506505110744" expanded="true" signature="1010:1030" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/Core/IApplicationFacade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/AssetManagement/AssetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/AssetManagement/RemoteBundleLoadingPolicy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/AssetManagement/Editor/AssetBundlesBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/Core/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/Core/UnityBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/Core/UnitySingleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/WebView/UI/AppWindowController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/WebView/UI/AppWindowView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC67DE6A-05EE-4736-B5AF-B8DA3804A091/4f/f564a513/FileUtil.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/Unity/CoroutineRunner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/WebView/Root/WebViewController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Source/WebView/UI/AppWindowView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/LGPlatform/Core/IApplicationFacade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/WebView/Root/WebViewContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/LGPlatform/Core/UnitySingleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/WebView/WebViewController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/WebView/Root/WebViewController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/WebView/UI/AppWindowController.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC67DE6A-05EE-4736-B5AF-B8DA3804A091/4f/f564a513/FileUtil.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SC_WebView (3 projects)" />
+              <option name="myItemType" value="com.jetbrains.rider.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="false" name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20524029-3310-4024-9404-fcb2bb89b246" name="Default" comment="" />
+      <created>1506502180024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1506502180024</updated>
+      <workItem from="1506502187959" duration="3746000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3746000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/Core/Commands/Command.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="195" column="16" lean-forward="true" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/Downloading/DownloadCacheConfig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/Unity/CoroutineRunner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1505734895332" expanded="true" signature="0:123" ph="/* CoroutineRunner.cs ... */" />
+            <marker date="1505734895332" expanded="true" signature="131:206" ph="..." />
+            <marker date="1505734895332" expanded="true" signature="234:3793" ph="{...}" />
+            <marker date="1505734895332" expanded="true" signature="241:357" ph="/// Helper MonoBehaviour class for running coroutines in non-unity environment. ... " />
+            <marker date="1505734895332" expanded="true" signature="426:3791" ph="{...}" />
+            <marker date="1505734895332" expanded="true" signature="441:719" ph="/// Run IEnumerator as a coroutine. ... " />
+            <marker date="1505734895332" expanded="true" signature="802:902" ph="{...}" />
+            <marker date="1505734895332" expanded="true" signature="912:1167" ph="/// Just wait some time and raise callback. ... " />
+            <marker date="1505734895332" expanded="true" signature="1237:1336" ph="{...}" />
+            <marker date="1505734895332" expanded="true" signature="1346:1851" ph="/// Run coroutine which will raise callback every frame for the defined period. ... " />
+            <marker date="1505734895332" expanded="true" signature="1961:2078" ph="{...}" />
+            <marker date="1505734895332" expanded="true" signature="2088:2465" ph="/// Run coroutine which will check condition and raise callback every frame until condition will be true. ... " />
+            <marker date="1505734895332" expanded="true" signature="2547:2651" ph="{...}" />
+            <marker date="1505734895332" expanded="true" signature="2748:2862" ph="{...}" />
+            <marker date="1505734895332" expanded="true" signature="2954:3061" ph="{...}" />
+            <marker date="1505734895332" expanded="true" signature="3185:3515" ph="{...}" />
+            <marker date="1505734895332" expanded="true" signature="3275:3472" ph="{...}" />
+            <marker date="1505734895332" expanded="true" signature="3619:3785" ph="{...}" />
+            <marker date="1505734895332" expanded="true" signature="3664:3775" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/AssetManagement/RemoteBundleLoadingPolicy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1506338746827" expanded="true" signature="0:128" ph="/* RemoteBundleLoadingPolicy.cs ... */" />
+            <marker date="1506338746827" expanded="true" signature="136:281" ph="..." />
+            <marker date="1506338746827" expanded="true" signature="319:2043" ph="{...}" />
+            <marker date="1506338746827" expanded="true" signature="326:425" ph="/// Class that handles remote loading for AssetBundle manager. ... " />
+            <marker date="1506338746827" expanded="true" signature="491:2041" ph="{...}" />
+            <marker date="1506338746827" expanded="true" signature="506:730" ph="/// Loading asset bundle from remote storage. ... " />
+            <marker date="1506338746827" expanded="true" signature="816:993" ph="{...}" />
+            <marker date="1506338746827" expanded="true" signature="1003:1140" ph="/// Unloading bundle from memory. ... " />
+            <marker date="1506338746827" expanded="true" signature="1193:1262" ph="{...}" />
+            <marker date="1506338746827" expanded="true" signature="1363:2035" ph="{...}" />
+            <marker date="1506338746827" expanded="true" signature="1563:1684" ph="{...}" />
+            <marker date="1506338746827" expanded="true" signature="1717:1909" ph="{...}" />
+            <marker date="1506338746827" expanded="true" signature="1926:2025" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/WebView/UI/AppWindowView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <marker date="1506503179379" expanded="true" signature="0:119" ph="/* AppWindowView.cs ... */" />
+            <marker date="1506503179379" expanded="true" signature="127:184" ph="..." />
+            <marker date="1506503179379" expanded="true" signature="206:552" ph="{...}" />
+            <marker date="1506503179379" expanded="true" signature="253:550" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/Context/SceneContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/Core/UnityBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1504527938149" expanded="true" signature="0:133" ph="/* UnityBehaviour.cs ... */" />
+            <marker date="1504527938149" expanded="false" signature="141:206" ph="..." />
+            <marker date="1504527938149" expanded="true" signature="446:4732" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="453:561" ph="/// Wrapper over Unity's MonoBehaviour, that extends MB's functionality ... " />
+            <marker date="1504527938149" expanded="true" signature="609:4730" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="624:759" ph="/// Cached Transform component, created due to expensive call of the 'transform' property. ... " />
+            <marker date="1504527938149" expanded="true" signature="794:894" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="820:884" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="904:1088" ph="/// Cached RectTransform component, created due to avoid redundant cast of the 'transform' to RectTransform. Can  ... " />
+            <marker date="1504527938149" expanded="true" signature="1131:1235" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="1157:1225" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="1492:1512" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="1522:1867" ph="/// Allows to delay invocation of the method. &lt;b&gt;The method will be executed at least once.&lt;/b&gt; ... " />
+            <marker date="1504527938149" expanded="true" signature="1939:2077" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="2087:2173" ph="/// Stops execution of the delayed update ... " />
+            <marker date="1504527938149" expanded="true" signature="2216:2351" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="2361:2443" ph="/// Wrapper on Unity's Awake() method ... " />
+            <marker date="1504527938149" expanded="true" signature="2484:2504" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="2514:2596" ph="/// Wrapper on Unity's Start() method ... " />
+            <marker date="1504527938149" expanded="true" signature="2637:2657" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="2667:2753" ph="/// Wrapper on Unity's OnDestroy() method ... " />
+            <marker date="1504527938149" expanded="true" signature="2796:2816" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="2826:2909" ph="/// Wrapper on Unity's Update() method ... " />
+            <marker date="1504527938149" expanded="true" signature="2951:2971" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="2981:3069" ph="/// Wrapper on Unity's FixedUpdate() method ... " />
+            <marker date="1504527938149" expanded="true" signature="3116:3136" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="3146:3233" ph="/// Wrapper on Unity's LateUpdate() method ... " />
+            <marker date="1504527938149" expanded="true" signature="3279:3299" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="3309:3390" ph="/// Is called every [delay] seconds. ... " />
+            <marker date="1504527938149" expanded="true" signature="3439:3459" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="3469:3594" ph="/// Set object visible. ... " />
+            <marker date="1504527938149" expanded="true" signature="3650:3714" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="3744:3957" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="3987:4030" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="4064:4109" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="4140:4556" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="4202:4546" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="4255:4488" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="4381:4470" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="4592:4641" ph="{...}" />
+            <marker date="1504527938149" expanded="true" signature="4676:4724" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/Core/Singleton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <marker date="1503306120370" expanded="true" signature="0:128" ph="/* Singleton.cs ... */" />
+            <marker date="1503306120370" expanded="true" signature="155:740" ph="{...}" />
+            <marker date="1503306120370" expanded="true" signature="162:314" ph="/// Singleton pattern implementation ... " />
+            <marker date="1503306120370" expanded="true" signature="384:738" ph="{...}" />
+            <marker date="1503306120370" expanded="true" signature="399:485" ph="/// Returns the instance of the singleton ... " />
+            <marker date="1503306120370" expanded="true" signature="518:643" ph="{...}" />
+            <marker date="1503306120370" expanded="true" signature="544:633" ph="{...}" />
+            <marker date="1503306120370" expanded="true" signature="712:732" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/WebView/WebViewController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SlotsCrazeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/Core/IApplicationFacade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <marker date="1506504161679" expanded="true" signature="0:137" ph="/* IApplicationFacade.cs ... */" />
+            <marker date="1506504161679" expanded="true" signature="199:448" ph="{...}" />
+            <marker date="1506504161679" expanded="true" signature="243:446" ph="{...}" />
+            <marker date="1506504161679" expanded="true" signature="258:342" ph="/// Getter of the current Asset manager ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/Core/UnitySingleton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <marker date="1506505110744" expanded="true" signature="0:133" ph="/* UnitySingleton.cs ... */" />
+            <marker date="1506505110744" expanded="true" signature="180:1038" ph="{...}" />
+            <marker date="1506505110744" expanded="true" signature="187:371" ph="/// Singleton, derived from MonoBehaviour with associated GameObject ... " />
+            <marker date="1506505110744" expanded="true" signature="461:1036" ph="{...}" />
+            <marker date="1506505110744" expanded="true" signature="476:562" ph="/// Returns the instance of the singleton ... " />
+            <marker date="1506505110744" expanded="true" signature="595:936" ph="{...}" />
+            <marker date="1506505110744" expanded="true" signature="621:926" ph="{...}" />
+            <marker date="1506505110744" expanded="true" signature="674:876" ph="{...}" />
+            <marker date="1506505110744" expanded="true" signature="1010:1030" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/WebView/Root/WebViewController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <marker date="1506505306198" expanded="true" signature="0:120" ph="/* WebViewContext.cs ... */" />
+            <marker date="1506505306198" expanded="false" signature="128:178" ph="..." />
+            <marker date="1506505306198" expanded="true" signature="197:551" ph="{...}" />
+            <marker date="1506505306198" expanded="true" signature="296:549" ph="{...}" />
+            <marker date="1506505306198" expanded="true" signature="471:546" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/AssetManagement/AssetManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <marker date="1506338746823" expanded="true" signature="0:131" ph="/* AssetManager.cs ... */" />
+            <marker date="1506338746823" expanded="false" signature="139:202" ph="..." />
+            <marker date="1506338746823" expanded="true" signature="240:5158" ph="{...}" />
+            <marker date="1506338746823" expanded="true" signature="247:415" ph="/// The class, that handles resources, loaded from the remote path.  ... " />
+            <marker date="1506338746823" expanded="true" signature="526:5156" ph="{...}" />
+            <marker date="1506338746823" expanded="true" signature="661:915" ph="/// Incapsulation for loading asset bundle from remote path. ... " />
+            <marker date="1506338746823" expanded="true" signature="1012:1482" ph="{...}" />
+            <marker date="1506338746823" expanded="true" signature="1142:1470" ph="{...}" />
+            <marker date="1506338746823" expanded="true" signature="1185:1404" ph="{...}" />
+            <marker date="1506338746823" expanded="true" signature="1492:1890" ph="/// Method, which should be used to get specific asset from specific asset bundle. ... " />
+            <marker date="1506338746823" expanded="true" signature="2001:2656" ph="{...}" />
+            <marker date="1506338746823" expanded="true" signature="2121:2312" ph="{...}" />
+            <marker date="1506338746823" expanded="true" signature="2423:2619" ph="{...}" />
+            <marker date="1506338746823" expanded="true" signature="2674:3044" ph="/// Method, which should be used to get assets with specific type from asset bundle. ... " />
+            <marker date="1506338746823" expanded="true" signature="3140:3886" ph="{...}" />
+            <marker date="1506338746823" expanded="true" signature="3260:3451" ph="{...}" />
+            <marker date="1506338746823" expanded="true" signature="3637:3848" ph="{...}" />
+            <marker date="1506338746823" expanded="true" signature="3896:4067" ph="/// Unload bundle from memory if loaded. ... " />
+            <marker date="1506338746823" expanded="true" signature="4113:4681" ph="{...}" />
+            <marker date="1506338746823" expanded="true" signature="4180:4363" ph="{...}" />
+            <marker date="1506338746823" expanded="true" signature="4691:4771" ph="/// Unload all bundles from memory. ... " />
+            <marker date="1506338746823" expanded="true" signature="4803:5150" ph="{...}" />
+            <marker date="1506338746823" expanded="true" signature="4894:4974" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/WebView/UI/AppWindowController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding>
+            <marker date="1506505507768" expanded="true" signature="0:125" ph="/* AppWindowController.cs ... */" />
+            <marker date="1506505507768" expanded="true" signature="133:202" ph="..." />
+            <marker date="1506505507768" expanded="true" signature="224:1196" ph="{...}" />
+            <marker date="1506505507768" expanded="true" signature="277:1194" ph="{...}" />
+            <marker date="1506505507768" expanded="true" signature="418:630" ph="{...}" />
+            <marker date="1506505507768" expanded="true" signature="669:808" ph="{...}" />
+            <marker date="1506505507768" expanded="true" signature="847:1106" ph="{...}" />
+            <marker date="1506505507768" expanded="true" signature="1023:1059" ph="{...}" />
+            <marker date="1506505507768" expanded="true" signature="1146:1191" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC67DE6A-05EE-4736-B5AF-B8DA3804A091/4f/f564a513/FileUtil.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/AssetManagement/Editor/AssetBundlesBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="65" lean-forward="true" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+          <folding>
+            <marker date="1503306140526" expanded="true" signature="0:127" ph="/* AssetBundlesBuilder.cs ... */" />
+            <marker date="1503306140526" expanded="false" signature="135:197" ph="..." />
+            <marker date="1503306140526" expanded="true" signature="242:1719" ph="{...}" />
+            <marker date="1503306140526" expanded="true" signature="288:1717" ph="{...}" />
+            <marker date="1503306140526" expanded="true" signature="507:1000" ph="{...}" />
+            <marker date="1503306140526" expanded="true" signature="1053:1711" ph="{...}" />
+            <marker date="1503306140526" expanded="true" signature="1126:1701" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
