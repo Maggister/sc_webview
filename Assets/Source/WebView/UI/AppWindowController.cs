@@ -31,13 +31,7 @@ namespace WebView.UI
 			_appView.LoadButton.onClick.AddListener(OnLoadButtonClicked);	
 			_appView.SaveButton.onClick.AddListener(OnSaveButtonClicked);
 
-			for(int index = 0; index < System.Environment.GetCommandLineArgs().Length; index++)
-			{
-				if(m_consoleArgsList.Exists(x => x == System.Environment.GetCommandLineArgs()[index]))
-				{
-					m_consoleCommandArgs.Add(System.Environment.GetCommandLineArgs()[index], System.Environment.GetCommandLineArgs()[index + 1]);
-				}
-			}
+			Debug.Log(Application.absoluteURL);
 		}
 
 		protected override void OnRelease()
