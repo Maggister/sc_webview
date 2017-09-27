@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: db5a286ba7fd24747927d370fdfb827e
-timeCreated: 1506505844
+guid: c08e6248fad6b1340884970fe34e3098
+timeCreated: 1506506573
 licenseType: Pro
 NativeFormatImporter:
   mainObjectFileID: 100100000
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  assetBundleName: popup
+  assetBundleVariant: test

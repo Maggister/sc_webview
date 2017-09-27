@@ -25,8 +25,8 @@ namespace LGPlatform.AssetManagement
         /// <param name="callback">Result callback.</param>
         public void Load(string url, Action<AssetBundleRef, Boolean> callback = null)
         {
-            String path = Path.Combine(Application.streamingAssetsPath, $"AssetBundles/{url}");
-            CoroutineRunner.Run(LoadRemote(path, callback));
+//            String path = Path.Combine(Application.streamingAssetsPath, $"AssetBundles/{url}");
+            CoroutineRunner.Run(LoadRemote(url, callback));
         }
 
         /// <summary>
