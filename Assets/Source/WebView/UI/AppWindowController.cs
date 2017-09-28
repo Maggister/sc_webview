@@ -3,11 +3,8 @@
 // e-mail: v.shcherba@twinwingames.com
 // Copyright 2017 Luck Genome
 
-using System.Collections.Generic;
-using System.IO;
- 
 using LGPlatform.Core;
-using LGPlatform.Core;
+using UnityEditor;
 using UnityEngine;
 
 namespace WebView.UI
@@ -17,59 +14,57 @@ namespace WebView.UI
 		[SerializeField] private AppWindowView _appView;
 		
 		private WebViewController m_webController;
+		private GameObject m_bundleUIObject;
+		
+		protected override void OnAwake()
+		{
+			base.OnAwake();
+			
+			m_webController = new WebViewController();
+			m_webController.Init();
+		}
 
-		private readonly List<string> m_consoleArgsList = new List<string>() {"-bundle_link"};
-		
-		private Dictionary<string, string> m_consoleCommandArgs = new Dictionary<string, string>();
-		
 		protected override void OnStart()
 		{
 			base.OnStart();
 
-			m_webController = WebViewController.Instance;
-			
-			_appView.LoadButton.onClick.AddListener(OnLoadButtonClicked);	
+//			_appView.LoadButton.onClick.AddListener(OnLoadButtonClicked);	
 			_appView.SaveButton.onClick.AddListener(OnSaveButtonClicked);
 
-			Debug.Log(Application.absoluteURL);
+			#if UNITY_EDITOR
+			LoadBundleByUrl("https://www.dropbox.com/s/sj3kigf7n2sojzd/popup.test?dl=1");
+			#endif
 		}
 
 		protected override void OnRelease()
 		{
 			base.OnRelease();
-			
-			_appView.LoadButton.onClick.RemoveAllListeners();
+
 			_appView.SaveButton.onClick.RemoveAllListeners();
 		}
 
 
-		private void OnLoadButtonClicked()
+		public void LoadBundleByUrl(string url)
 		{
-			string url = _appView.LinkInputField.text;
+			if (string.IsNullOrEmpty(url)) return;
 			
-			Application.OpenURL(m_consoleCommandArgs["-bundle_link"]);
-			return;
-//			if (string.IsNullOrEmpty(url)) return;
-
-			m_webController.AssetManager.LoadAssetBundle("https://www.dropbox.com/s/sj3kigf7n2sojzd/popup.test?dl=1", (bundleRef, isSuccess) =>
+			Destroy(_appView.LinkInputField.gameObject);
+			
+			m_webController.AssetManager.LoadAssetBundle(url, (bundleRef, isSuccess) =>
 			{
-				Debug.Log(isSuccess);
-				Debug.Log(bundleRef.AssetBundle == null);
-				Debug.Log(bundleRef.AssetBundle.name);
+				if (!isSuccess) return;
 				
-//				AssetBundle/**/
-				GameObject obj = Instantiate(bundleRef.AssetBundle.LoadAsset("Popup - test")) as GameObject;
-
-//				Object bun = bundleRef.AssetBundle.LoadAsset("sas");
-//				GameObject obj = Instantiate(bun) as GameObject;
+				Debug.Log("LoadBundleByUrl 1");
+				m_bundleUIObject = Instantiate(bundleRef.AssetBundle.LoadAsset("Popup - test")) as GameObject;
+				Debug.Log("LoadBundleByUrl 2");
+				m_bundleUIObject.transform.SetParent(GameObject.Find("UI").transform, false);
 			});
-			
-			Debug.Log("OnLoadButtonClicked");
 		}
 		
 		private void OnSaveButtonClicked()
 		{
 			Debug.Log("OnSaveButtonClicked");
+			BuildPipeline.BuildAssetBundle();
 		}
 	}
 }

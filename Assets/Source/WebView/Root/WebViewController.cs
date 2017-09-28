@@ -8,13 +8,13 @@ using LGPlatform.Core;
 
 namespace WebView
 {
-	internal sealed class WebViewController : UnitySingleton<WebViewController>, IApplicationFacade
+	internal sealed class WebViewController : Singleton<WebViewController>, IApplicationFacade
 	{
 		private AssetManager<RemoteBundleLoadingPolicy> m_assetManager;
 
 		public AssetManager<RemoteBundleLoadingPolicy> AssetManager => m_assetManager;
 
-		private void Start()
+		public void Init()
 		{
 			m_assetManager = new AssetManager<RemoteBundleLoadingPolicy>();
 		}
