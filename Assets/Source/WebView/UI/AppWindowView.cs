@@ -11,12 +11,5 @@ namespace WebView.UI
 {
 	public class AppWindowView : UnityBehaviour
 	{
-		[SerializeField] private InputField _linkInputField;
-		[SerializeField] private Button _loadButton;
-		[SerializeField] private Button _saveButton;
-
-		public InputField LinkInputField => _linkInputField;
-		public Button LoadButton => _loadButton;
-		public Button SaveButton => _saveButton;
 	}
 }

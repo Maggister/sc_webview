@@ -4,7 +4,6 @@
 // Copyright 2017 Luck Genome
 
 using LGPlatform.Core;
-using UnityEditor;
 using UnityEngine;
 
 namespace WebView.UI
@@ -15,7 +14,7 @@ namespace WebView.UI
 		
 		private WebViewController m_webController;
 		private GameObject m_bundleUIObject;
-		
+
 		protected override void OnAwake()
 		{
 			base.OnAwake();
@@ -28,28 +27,16 @@ namespace WebView.UI
 		{
 			base.OnStart();
 
-//			_appView.LoadButton.onClick.AddListener(OnLoadButtonClicked);	
-			_appView.SaveButton.onClick.AddListener(OnSaveButtonClicked);
-
 			#if UNITY_EDITOR
 			LoadBundleByUrl("https://www.dropbox.com/s/sj3kigf7n2sojzd/popup.test?dl=1");
 			#endif
 		}
 
-		protected override void OnRelease()
-		{
-			base.OnRelease();
-
-			_appView.SaveButton.onClick.RemoveAllListeners();
-		}
-
-
+		//gameInstance.SendMessage("Window - App","LoadBundleByUrl", "https://www.dropbox.com/s/sj3kigf7n2sojzd/popup.test?dl=1");
 		public void LoadBundleByUrl(string url)
 		{
 			if (string.IsNullOrEmpty(url)) return;
-			
-			Destroy(_appView.LinkInputField.gameObject);
-			
+
 			m_webController.AssetManager.LoadAssetBundle(url, (bundleRef, isSuccess) =>
 			{
 				if (!isSuccess) return;
@@ -59,12 +46,6 @@ namespace WebView.UI
 				Debug.Log("LoadBundleByUrl 2");
 				m_bundleUIObject.transform.SetParent(GameObject.Find("UI").transform, false);
 			});
-		}
-		
-		private void OnSaveButtonClicked()
-		{
-			Debug.Log("OnSaveButtonClicked");
-			BuildPipeline.BuildAssetBundle();
 		}
 	}
 }

@@ -1,7 +1,0 @@
-ManifestFileVersion: 0
-CRC: 3321597879
-AssetBundleManifest:
-  AssetBundleInfos:
-    Info_0:
-      Name: popup.test
-      Dependencies: {}
