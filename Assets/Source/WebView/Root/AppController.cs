@@ -8,7 +8,7 @@ using LGPlatform.Core;
 
 namespace WebView
 {
-	internal sealed class WebViewController : Singleton<WebViewController>, IApplicationFacade
+	internal sealed class AppController : Singleton<AppController>
 	{
 		private AssetManager<RemoteBundleLoadingPolicy> m_assetManager;
 

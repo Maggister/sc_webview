@@ -10,16 +10,14 @@ namespace WebView.UI
 {
 	public class AppWindowController : UnityBehaviour
 	{
-		[SerializeField] private AppWindowView _appView;
-		
-		private WebViewController m_webController;
+		private AppController m_webController;
 		private GameObject m_bundleUIObject;
 
 		protected override void OnAwake()
 		{
 			base.OnAwake();
 			
-			m_webController = new WebViewController();
+			m_webController = new AppController();
 			m_webController.Init();
 		}
 
@@ -27,25 +25,43 @@ namespace WebView.UI
 		{
 			base.OnStart();
 
-			#if UNITY_EDITOR
-			LoadBundleByUrl("https://www.dropbox.com/s/sj3kigf7n2sojzd/popup.test?dl=1");
-			#endif
+//			#if UNITY_EDITOR
+//			DownloadBundleByUrl("[Popup - test, https://www.dropbox.com/s/sj3kigf7n2sojzd/popup.test?dl=1]");  
+//			#endif
 		}
 
-		//gameInstance.SendMessage("Window - App","LoadBundleByUrl", "https://www.dropbox.com/s/sj3kigf7n2sojzd/popup.test?dl=1");
-		public void LoadBundleByUrl(string url)
+		//
+		/// <summary>
+		/// Download bundle and create object from asset bundle.
+		/// How call from JS: gameInstance.SendMessage("{Object_Name}","DownloadBundleByUrl", "{Link_To_Bundle}");
+		/// </summary>
+		/// <param name="objectName"> Name of object that need to load from asset bundle.</param>
+		/// <param name="url"> Link for downloading bundle.</param>
+		public void DownloadBundleByUrl(string jsonConfig)
 		{
-			if (string.IsNullOrEmpty(url)) return;
+			Debug.Log($"{jsonConfig}");
+			Config config = JsonUtility.FromJson<Config>(jsonConfig);
 
-			m_webController.AssetManager.LoadAssetBundle(url, (bundleRef, isSuccess) =>
+			
+			
+			if (string.IsNullOrEmpty(config.BundleUrl)) return;
+
+			m_webController.AssetManager.LoadAssetBundle(config.BundleUrl, (bundleRef, isSuccess) =>
 			{
 				if (!isSuccess) return;
 				
-				Debug.Log("LoadBundleByUrl 1");
-				m_bundleUIObject = Instantiate(bundleRef.AssetBundle.LoadAsset("Popup - test")) as GameObject;
-				Debug.Log("LoadBundleByUrl 2");
-				m_bundleUIObject.transform.SetParent(GameObject.Find("UI").transform, false);
+				if (m_bundleUIObject != null) Destroy(m_bundleUIObject.gameObject);
+
+				m_bundleUIObject = Instantiate(bundleRef.AssetBundle.LoadAsset(config.ObjectName)) as GameObject;
+				m_bundleUIObject.transform.SetParent(transform, false);
 			});
+		}
+		
+		[System.Serializable]
+		private class Config
+		{
+			public string ObjectName;
+			public string BundleUrl;
 		}
 	}
 }
