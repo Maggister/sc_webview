@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20524029-3310-4024-9404-fcb2bb89b246" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/1024x1024-ipad.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/1024x1024-ipad.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Source/LGPlatform/Core/IApplicationFacade.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Source/LGPlatform/Core/IApplicationFacade.cs.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Source/WebView/UI/AppWindowView.cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Source/WebView/UI/AppWindowView.cs.meta" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.SC_WebView/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.SC_WebView/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scene/App.unity" afterPath="$PROJECT_DIR$/Assets/Scene/App.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Source/WebView/Root/AppController.cs" afterPath="$PROJECT_DIR$/Assets/Source/WebView/Root/AppController.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Source/WebView/UI/AppWindowController.cs" afterPath="$PROJECT_DIR$/Assets/Source/WebView/UI/AppWindowController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/StreamingAssets/AssetBundles.meta" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/AssetBundles.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Assets/Source/WebView/Root/WebViewController.cs" afterPath="$PROJECT_DIR$/Assets/Source/WebView/Root/AppController.cs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Assets/Source/WebView/Root/WebViewController.cs.meta" afterPath="$PROJECT_DIR$/Assets/Source/WebView/Root/AppController.cs.meta" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,20 +19,19 @@
       <file leaf-file-name="AppWindowController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Source/WebView/UI/AppWindowController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="466">
+              <caret line="51" column="71" lean-forward="true" selection-start-line="51" selection-start-column="71" selection-end-line="51" selection-end-column="71" />
               <folding>
-                <marker date="1506686271187" expanded="true" signature="0:125" ph="/* AppWindowController.cs ... */" />
-                <marker date="1506686271187" expanded="true" signature="133:168" ph="..." />
-                <marker date="1506686271187" expanded="true" signature="190:1738" ph="{...}" />
-                <marker date="1506686271187" expanded="true" signature="243:1736" ph="{...}" />
-                <marker date="1506686271187" expanded="true" signature="363:463" ph="{...}" />
-                <marker date="1506686271187" expanded="true" signature="500:667" ph="{...}" />
-                <marker date="1506686271187" expanded="true" signature="525:663" ph="/* ##if UNITY_EDITOR ... */" />
-                <marker date="1506686271187" expanded="true" signature="676:1028" ph="/// Download bundle and create object from asset bundle. ... " />
-                <marker date="1506686271187" expanded="true" signature="1081:1618" ph="{...}" />
-                <marker date="1506686271187" expanded="true" signature="1334:1612" ph="{...}" />
-                <marker date="1506686271187" expanded="true" signature="1668:1733" ph="{...}" />
+                <marker date="1506693427779" expanded="true" signature="0:125" ph="/* AppWindowController.cs ... */" />
+                <marker date="1506693427779" expanded="true" signature="133:190" ph="..." />
+                <marker date="1506693427779" expanded="true" signature="212:1489" ph="{...}" />
+                <marker date="1506693427779" expanded="true" signature="216:277" ph="/// Controller for app window. ... " />
+                <marker date="1506693427779" expanded="true" signature="328:1487" ph="{...}" />
+                <marker date="1506693427779" expanded="true" signature="448:548" ph="{...}" />
+                <marker date="1506693427779" expanded="true" signature="552:816" ph="/// Downloadin bundle and create object from asset bundle. ... " />
+                <marker date="1506693427779" expanded="true" signature="862:1484" ph="{...}" />
+                <marker date="1506693427779" expanded="true" signature="988:1478" ph="{...}" />
+                <marker date="1506693427779" expanded="true" signature="1220:1331" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -51,14 +40,16 @@
       <file leaf-file-name="AppController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Source/WebView/Root/AppController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+            <state relative-caret-position="285">
+              <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding>
-                <marker date="1506605028573" expanded="true" signature="0:120" ph="/* WebViewContext.cs ... */" />
-                <marker date="1506605028573" expanded="false" signature="128:178" ph="..." />
-                <marker date="1506605028573" expanded="true" signature="197:516" ph="{...}" />
-                <marker date="1506605028573" expanded="true" signature="263:514" ph="{...}" />
-                <marker date="1506605028573" expanded="true" signature="436:511" ph="{...}" />
+                <marker date="1506693318235" expanded="true" signature="0:120" ph="/* WebViewContext.cs ... */" />
+                <marker date="1506693318235" expanded="false" signature="128:178" ph="..." />
+                <marker date="1506693318235" expanded="true" signature="197:646" ph="{...}" />
+                <marker date="1506693318235" expanded="true" signature="201:263" ph="/// Start point of application. ... " />
+                <marker date="1506693318235" expanded="true" signature="327:644" ph="{...}" />
+                <marker date="1506693318235" expanded="true" signature="482:545" ph="/// Initialize app controller. ... " />
+                <marker date="1506693318235" expanded="true" signature="566:641" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -67,8 +58,8 @@
       <file leaf-file-name="AssetBundlesBuilder.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/AssetManagement/Editor/AssetBundlesBuilder.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="107" lean-forward="false" selection-start-line="14" selection-start-column="107" selection-end-line="14" selection-end-column="107" />
+            <state relative-caret-position="301">
+              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
                 <marker date="1506603339995" expanded="true" signature="0:127" ph="/* AssetBundlesBuilder.cs ... */" />
                 <marker date="1506603339995" expanded="false" signature="135:197" ph="..." />
@@ -276,12 +267,12 @@
       <workItem from="1506514985717" duration="2871000" />
       <workItem from="1506521865787" duration="4000000" />
       <workItem from="1506587787472" duration="6889000" />
-      <workItem from="1506599052165" duration="15756000" />
+      <workItem from="1506599052165" duration="18851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36145000" />
+    <option name="totallyTimeSpent" value="39240000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,11 +333,13 @@
         <state relative-caret-position="270">
           <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding>
-            <marker date="1506605028573" expanded="true" signature="0:120" ph="/* WebViewContext.cs ... */" />
-            <marker date="1506605028573" expanded="false" signature="128:178" ph="..." />
-            <marker date="1506605028573" expanded="true" signature="197:516" ph="{...}" />
-            <marker date="1506605028573" expanded="true" signature="263:514" ph="{...}" />
-            <marker date="1506605028573" expanded="true" signature="436:511" ph="{...}" />
+            <marker date="1506693318235" expanded="true" signature="0:120" ph="/* WebViewContext.cs ... */" />
+            <marker date="1506693318235" expanded="false" signature="128:178" ph="..." />
+            <marker date="1506693318235" expanded="true" signature="197:646" ph="{...}" />
+            <marker date="1506693318235" expanded="true" signature="201:263" ph="/// Start point of application. ... " />
+            <marker date="1506693318235" expanded="true" signature="327:644" ph="{...}" />
+            <marker date="1506693318235" expanded="true" signature="482:545" ph="/// Initialize app controller. ... " />
+            <marker date="1506693318235" expanded="true" signature="566:641" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -382,17 +375,16 @@
         <state relative-caret-position="630">
           <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
           <folding>
-            <marker date="1506686271187" expanded="true" signature="0:125" ph="/* AppWindowController.cs ... */" />
-            <marker date="1506686271187" expanded="true" signature="133:168" ph="..." />
-            <marker date="1506686271187" expanded="true" signature="190:1738" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="243:1736" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="363:463" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="500:667" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="525:663" ph="/* ##if UNITY_EDITOR ... */" />
-            <marker date="1506686271187" expanded="true" signature="676:1028" ph="/// Download bundle and create object from asset bundle. ... " />
-            <marker date="1506686271187" expanded="true" signature="1081:1618" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="1334:1612" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="1668:1733" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="0:125" ph="/* AppWindowController.cs ... */" />
+            <marker date="1506693427779" expanded="true" signature="133:190" ph="..." />
+            <marker date="1506693427779" expanded="true" signature="212:1489" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="216:277" ph="/// Controller for app window. ... " />
+            <marker date="1506693427779" expanded="true" signature="328:1487" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="448:548" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="552:816" ph="/// Downloadin bundle and create object from asset bundle. ... " />
+            <marker date="1506693427779" expanded="true" signature="862:1484" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="988:1478" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="1220:1331" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -410,17 +402,16 @@
         <state relative-caret-position="585">
           <caret line="44" column="61" lean-forward="false" selection-start-line="44" selection-start-column="61" selection-end-line="44" selection-end-column="61" />
           <folding>
-            <marker date="1506686271187" expanded="true" signature="0:125" ph="/* AppWindowController.cs ... */" />
-            <marker date="1506686271187" expanded="true" signature="133:168" ph="..." />
-            <marker date="1506686271187" expanded="true" signature="190:1738" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="243:1736" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="363:463" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="500:667" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="525:663" ph="/* ##if UNITY_EDITOR ... */" />
-            <marker date="1506686271187" expanded="true" signature="676:1028" ph="/// Download bundle and create object from asset bundle. ... " />
-            <marker date="1506686271187" expanded="true" signature="1081:1618" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="1334:1612" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="1668:1733" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="0:125" ph="/* AppWindowController.cs ... */" />
+            <marker date="1506693427779" expanded="true" signature="133:190" ph="..." />
+            <marker date="1506693427779" expanded="true" signature="212:1489" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="216:277" ph="/// Controller for app window. ... " />
+            <marker date="1506693427779" expanded="true" signature="328:1487" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="448:548" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="552:816" ph="/// Downloadin bundle and create object from asset bundle. ... " />
+            <marker date="1506693427779" expanded="true" signature="862:1484" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="988:1478" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="1220:1331" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -457,11 +448,13 @@
         <state relative-caret-position="300">
           <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <marker date="1506605028573" expanded="true" signature="0:120" ph="/* WebViewContext.cs ... */" />
-            <marker date="1506605028573" expanded="false" signature="128:178" ph="..." />
-            <marker date="1506605028573" expanded="true" signature="197:516" ph="{...}" />
-            <marker date="1506605028573" expanded="true" signature="263:514" ph="{...}" />
-            <marker date="1506605028573" expanded="true" signature="436:511" ph="{...}" />
+            <marker date="1506693318235" expanded="true" signature="0:120" ph="/* WebViewContext.cs ... */" />
+            <marker date="1506693318235" expanded="false" signature="128:178" ph="..." />
+            <marker date="1506693318235" expanded="true" signature="197:646" ph="{...}" />
+            <marker date="1506693318235" expanded="true" signature="201:263" ph="/// Start point of application. ... " />
+            <marker date="1506693318235" expanded="true" signature="327:644" ph="{...}" />
+            <marker date="1506693318235" expanded="true" signature="482:545" ph="/// Initialize app controller. ... " />
+            <marker date="1506693318235" expanded="true" signature="566:641" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -512,17 +505,16 @@
         <state relative-caret-position="570">
           <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
           <folding>
-            <marker date="1506686271187" expanded="true" signature="0:125" ph="/* AppWindowController.cs ... */" />
-            <marker date="1506686271187" expanded="true" signature="133:168" ph="..." />
-            <marker date="1506686271187" expanded="true" signature="190:1738" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="243:1736" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="363:463" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="500:667" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="525:663" ph="/* ##if UNITY_EDITOR ... */" />
-            <marker date="1506686271187" expanded="true" signature="676:1028" ph="/// Download bundle and create object from asset bundle. ... " />
-            <marker date="1506686271187" expanded="true" signature="1081:1618" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="1334:1612" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="1668:1733" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="0:125" ph="/* AppWindowController.cs ... */" />
+            <marker date="1506693427779" expanded="true" signature="133:190" ph="..." />
+            <marker date="1506693427779" expanded="true" signature="212:1489" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="216:277" ph="/// Controller for app window. ... " />
+            <marker date="1506693427779" expanded="true" signature="328:1487" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="448:548" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="552:816" ph="/// Downloadin bundle and create object from asset bundle. ... " />
+            <marker date="1506693427779" expanded="true" signature="862:1484" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="988:1478" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="1220:1331" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -532,11 +524,13 @@
         <state relative-caret-position="300">
           <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <marker date="1506605028573" expanded="true" signature="0:120" ph="/* WebViewContext.cs ... */" />
-            <marker date="1506605028573" expanded="false" signature="128:178" ph="..." />
-            <marker date="1506605028573" expanded="true" signature="197:516" ph="{...}" />
-            <marker date="1506605028573" expanded="true" signature="263:514" ph="{...}" />
-            <marker date="1506605028573" expanded="true" signature="436:511" ph="{...}" />
+            <marker date="1506693318235" expanded="true" signature="0:120" ph="/* WebViewContext.cs ... */" />
+            <marker date="1506693318235" expanded="false" signature="128:178" ph="..." />
+            <marker date="1506693318235" expanded="true" signature="197:646" ph="{...}" />
+            <marker date="1506693318235" expanded="true" signature="201:263" ph="/// Start point of application. ... " />
+            <marker date="1506693318235" expanded="true" signature="327:644" ph="{...}" />
+            <marker date="1506693318235" expanded="true" signature="482:545" ph="/// Initialize app controller. ... " />
+            <marker date="1506693318235" expanded="true" signature="566:641" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -554,17 +548,16 @@
         <state relative-caret-position="735">
           <caret line="49" column="108" lean-forward="false" selection-start-line="49" selection-start-column="108" selection-end-line="49" selection-end-column="108" />
           <folding>
-            <marker date="1506686271187" expanded="true" signature="0:125" ph="/* AppWindowController.cs ... */" />
-            <marker date="1506686271187" expanded="true" signature="133:168" ph="..." />
-            <marker date="1506686271187" expanded="true" signature="190:1738" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="243:1736" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="363:463" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="500:667" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="525:663" ph="/* ##if UNITY_EDITOR ... */" />
-            <marker date="1506686271187" expanded="true" signature="676:1028" ph="/// Download bundle and create object from asset bundle. ... " />
-            <marker date="1506686271187" expanded="true" signature="1081:1618" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="1334:1612" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="1668:1733" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="0:125" ph="/* AppWindowController.cs ... */" />
+            <marker date="1506693427779" expanded="true" signature="133:190" ph="..." />
+            <marker date="1506693427779" expanded="true" signature="212:1489" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="216:277" ph="/// Controller for app window. ... " />
+            <marker date="1506693427779" expanded="true" signature="328:1487" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="448:548" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="552:816" ph="/// Downloadin bundle and create object from asset bundle. ... " />
+            <marker date="1506693427779" expanded="true" signature="862:1484" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="988:1478" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="1220:1331" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -589,11 +582,13 @@
         <state relative-caret-position="300">
           <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <marker date="1506605028573" expanded="true" signature="0:120" ph="/* WebViewContext.cs ... */" />
-            <marker date="1506605028573" expanded="false" signature="128:178" ph="..." />
-            <marker date="1506605028573" expanded="true" signature="197:516" ph="{...}" />
-            <marker date="1506605028573" expanded="true" signature="263:514" ph="{...}" />
-            <marker date="1506605028573" expanded="true" signature="436:511" ph="{...}" />
+            <marker date="1506693318235" expanded="true" signature="0:120" ph="/* WebViewContext.cs ... */" />
+            <marker date="1506693318235" expanded="false" signature="128:178" ph="..." />
+            <marker date="1506693318235" expanded="true" signature="197:646" ph="{...}" />
+            <marker date="1506693318235" expanded="true" signature="201:263" ph="/// Start point of application. ... " />
+            <marker date="1506693318235" expanded="true" signature="327:644" ph="{...}" />
+            <marker date="1506693318235" expanded="true" signature="482:545" ph="/// Initialize app controller. ... " />
+            <marker date="1506693318235" expanded="true" signature="566:641" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -772,10 +767,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/WebView/Root/AppController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding>
+            <marker date="1506693318235" expanded="true" signature="0:120" ph="/* WebViewContext.cs ... */" />
+            <marker date="1506693318235" expanded="false" signature="128:178" ph="..." />
+            <marker date="1506693318235" expanded="true" signature="197:646" ph="{...}" />
+            <marker date="1506693318235" expanded="true" signature="201:263" ph="/// Start point of application. ... " />
+            <marker date="1506693318235" expanded="true" signature="327:644" ph="{...}" />
+            <marker date="1506693318235" expanded="true" signature="482:545" ph="/// Initialize app controller. ... " />
+            <marker date="1506693318235" expanded="true" signature="566:641" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Source/LGPlatform/AssetManagement/Editor/AssetBundlesBuilder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="107" lean-forward="false" selection-start-line="14" selection-start-column="107" selection-end-line="14" selection-end-column="107" />
+        <state relative-caret-position="301">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
             <marker date="1506603339995" expanded="true" signature="0:127" ph="/* AssetBundlesBuilder.cs ... */" />
             <marker date="1506603339995" expanded="false" signature="135:197" ph="..." />
@@ -788,36 +799,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Source/WebView/Root/AppController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
-          <folding>
-            <marker date="1506605028573" expanded="true" signature="0:120" ph="/* WebViewContext.cs ... */" />
-            <marker date="1506605028573" expanded="false" signature="128:178" ph="..." />
-            <marker date="1506605028573" expanded="true" signature="197:516" ph="{...}" />
-            <marker date="1506605028573" expanded="true" signature="263:514" ph="{...}" />
-            <marker date="1506605028573" expanded="true" signature="436:511" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Source/WebView/UI/AppWindowController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="466">
+          <caret line="51" column="71" lean-forward="true" selection-start-line="51" selection-start-column="71" selection-end-line="51" selection-end-column="71" />
           <folding>
-            <marker date="1506686271187" expanded="true" signature="0:125" ph="/* AppWindowController.cs ... */" />
-            <marker date="1506686271187" expanded="true" signature="133:168" ph="..." />
-            <marker date="1506686271187" expanded="true" signature="190:1738" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="243:1736" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="363:463" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="500:667" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="525:663" ph="/* ##if UNITY_EDITOR ... */" />
-            <marker date="1506686271187" expanded="true" signature="676:1028" ph="/// Download bundle and create object from asset bundle. ... " />
-            <marker date="1506686271187" expanded="true" signature="1081:1618" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="1334:1612" ph="{...}" />
-            <marker date="1506686271187" expanded="true" signature="1668:1733" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="0:125" ph="/* AppWindowController.cs ... */" />
+            <marker date="1506693427779" expanded="true" signature="133:190" ph="..." />
+            <marker date="1506693427779" expanded="true" signature="212:1489" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="216:277" ph="/// Controller for app window. ... " />
+            <marker date="1506693427779" expanded="true" signature="328:1487" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="448:548" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="552:816" ph="/// Downloadin bundle and create object from asset bundle. ... " />
+            <marker date="1506693427779" expanded="true" signature="862:1484" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="988:1478" ph="{...}" />
+            <marker date="1506693427779" expanded="true" signature="1220:1331" ph="{...}" />
           </folding>
         </state>
       </provider>

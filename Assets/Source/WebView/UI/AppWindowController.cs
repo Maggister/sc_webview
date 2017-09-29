@@ -4,10 +4,14 @@
 // Copyright 2017 Luck Genome
 
 using LGPlatform.Core;
+using LGPlatform.Log;
 using UnityEngine;
 
 namespace WebView.UI
 {
+	/// <summary>
+	/// Controller for app window.
+	/// </summary>
 	public class AppWindowController : UnityBehaviour
 	{
 		private AppController m_webController;
@@ -21,47 +25,32 @@ namespace WebView.UI
 			m_webController.Init();
 		}
 
-		protected override void OnStart()
-		{
-			base.OnStart();
-
-//			#if UNITY_EDITOR
-//			DownloadBundleByUrl("[Popup - test, https://www.dropbox.com/s/sj3kigf7n2sojzd/popup.test?dl=1]");  
-//			#endif
-		}
-
-		//
 		/// <summary>
-		/// Download bundle and create object from asset bundle.
-		/// How call from JS: gameInstance.SendMessage("{Object_Name}","DownloadBundleByUrl", "{Link_To_Bundle}");
+		/// Downloadin bundle and create object from asset bundle.
+		/// How call from JS: gameInstance.SendMessage("Window - App","DownloadBundleByUrl", "{Link_To_Bundle}");
 		/// </summary>
-		/// <param name="objectName"> Name of object that need to load from asset bundle.</param>
-		/// <param name="url"> Link for downloading bundle.</param>
-		public void DownloadBundleByUrl(string jsonConfig)
+		/// <param name="url"> Url from asset bundle location.</param>
+		public void DownloadBundleByUrl(string url)
 		{
-			Debug.Log($"{jsonConfig}");
-			Config config = JsonUtility.FromJson<Config>(jsonConfig);
+			if (string.IsNullOrEmpty(url)) return;
 
-			
-			
-			if (string.IsNullOrEmpty(config.BundleUrl)) return;
-
-			m_webController.AssetManager.LoadAssetBundle(config.BundleUrl, (bundleRef, isSuccess) =>
+			m_webController.AssetManager.LoadAssetBundle(url, (bundleRef, isSuccess) =>
 			{
 				if (!isSuccess) return;
 				
 				if (m_bundleUIObject != null) Destroy(m_bundleUIObject.gameObject);
 
-				m_bundleUIObject = Instantiate(bundleRef.AssetBundle.LoadAsset(config.ObjectName)) as GameObject;
+				Object[] loadedAssetsFromBundle = bundleRef.AssetBundle.LoadAllAssets();
+
+				if(loadedAssetsFromBundle.Length <= 0)
+				{
+					Logging.Log(Logging.Level.Error, Logging.Channel.Game, "Current bundle empty.");
+					return;
+				}
+				
+				m_bundleUIObject = Instantiate(loadedAssetsFromBundle[0]) as GameObject;
 				m_bundleUIObject.transform.SetParent(transform, false);
 			});
-		}
-		
-		[System.Serializable]
-		private class Config
-		{
-			public string ObjectName;
-			public string BundleUrl;
 		}
 	}
 }
