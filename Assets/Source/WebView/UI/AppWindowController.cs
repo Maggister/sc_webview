@@ -26,7 +26,7 @@ namespace WebView.UI
 		}
 
 		/// <summary>
-		/// Downloadin bundle and create object from asset bundle.
+		/// Downloading bundle and create object from asset bundle.
 		/// How call from JS: gameInstance.SendMessage("Window - App","DownloadBundleByUrl", "{Link_To_Bundle}");
 		/// </summary>
 		/// <param name="url"> Url from asset bundle location.</param>
@@ -44,7 +44,7 @@ namespace WebView.UI
 
 				if(loadedAssetsFromBundle.Length <= 0)
 				{
-					Logging.Log(Logging.Level.Error, Logging.Channel.Game, "Current bundle empty.");
+					Logging.Log(Logging.Level.Error, Logging.Channel.Game, "Current bundle is empty.");
 					return;
 				}
 				
